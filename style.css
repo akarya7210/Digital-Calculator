@@ -1,0 +1,96 @@
+body {
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
+  .box {
+    height: 82vh;
+    width: 37vw;
+    border: 1px solid #ddd;
+    margin: 3rem auto;
+    border-radius: 1px;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
+  }
+  .input {
+    width: 34vw;
+    height: 6vh;
+    padding: 12px 5px 0 0;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    text-align: right;
+    overflow-x: auto;
+    transition: all 0.2s ease-in-out;
+  }
+  .input:hover {
+    border: 1px solid #bbb;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  .operators {
+    margin: 10px 0;
+  }
+  .operators div {
+    display: inline-block;
+    background: #ddd;
+    border: 1px solid #bbb;
+    width: 72px;
+    padding: 13px;
+    margin: 6px -20px 2px 27px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    /* transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s; */
+    cursor: pointer;
+  }
+  .operators div:hover {
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+    font-weight: lighter;
+  }
+  .left_panel {
+    display: inline-block;
+  }
+  
+  .numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    background: #f9f9f9;
+    width: 72px;
+    padding: 13px;
+    margin: 7px -20px 10px 27px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .numbers div:hover {
+    background: #f1f1f1;
+    border-color: #bbb;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  .equal {
+    display: inline-block;
+    border: 1px solid #3079ed;
+    border-radius: 1px;
+    cursor: pointer;
+    color: #fff;
+    background: #4d90fe;
+    padding: 131.3px 38.5px;
+    vertical-align: top;
+    margin: 7px 0 0 27px;
+    transition: all 0.2s ease-in-out;
+  }
+  .equal:hover {
+    background: #307cf9;
+    border-color: #1857bb;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  
